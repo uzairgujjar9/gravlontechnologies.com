@@ -182,7 +182,7 @@ body {
 //........................................................................................... */
 .home .home-page {
   align-items: center;
-  background-image: url(../images/bg-image-27.jpg);
+  background-image: url(../bg-image-27.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
