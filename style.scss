@@ -1,0 +1,1610 @@
+$color_1: #ffffff;
+$color_2: #4cb0ef;
+$color_3: transparent;
+$color_4: #c6c9d8;
+$color_5: #fff;
+$color_6: rgba(198, 201, 216, 0.75);
+$font-family_1: "Poppins", sans-serif;
+$font-family_2: "Montserrat", sans-serif;
+$font-family_3: inherit;
+$background-color_1: transparent;
+$background-color_2: #101010;
+$border-color_1: transparent;
+$border-color_2: #4cb0ef;
+
+/*
+=============================================================================
+    Author: UZAIR GUJJAR
+    File: styles.css
+    Description: 🎨 Welcome to the Stylish World of Gravlon Technologies! 
+                This CSS file is the masterpiece behind the scenes. It brings 
+                life to our design, making it responsive, elegant, and engaging.
+    Last Updated: September 3, 2023
+    Contact: 
+        - Email: your.email@example.com
+=============================================================================
+*/
+/* html */
+/* body */
+/*/
+/*/
+/*/
+/* //........................................................................................
+//......AAAAAAA.......BBBBBBBBBBBBB.......OOOOOOOOOO.....UUUUU......UUUU...TTTTTTTTTTTTT..
+//......AAAAAAA.......BBBBBBBBBBBBBB.....OOOOOOOOOOOOO...UUUUU......UUUU...TTTTTTTTTTTTT..
+//.....AAAAAAAA.......BBBBBBBBBBBBBB....OOOOOOOOOOOOOOO..UUUUU......UUUU...TTTTTTTTTTTTT..
+//.....AAAAAAAAA......BBBB....BBBBBBB..OOOOOOOO.OOOOOOO..UUUUU......UUUU........TTTT......
+//.....AAAAAAAAA......BBBB......BBBBB..OOOOOO.....OOOOOO.UUUUU......UUUU........TTTT......
+//....AAAAAAAAAAA.....BBBB......BBBBB.OOOOOO......OOOOOO.UUUUU......UUUU........TTTT......
+//....AAAAA.AAAAA.....BBBB....BBBBBB..OOOOOO.......OOOOO.UUUUU......UUUU........TTTT......
+//...AAAAAA.AAAAA.....BBBBBBBBBBBBBB..OOOOO........OOOOO.UUUUU......UUUU........TTTT......
+//...AAAAA..AAAAAA....BBBBBBBBBBBBBB..OOOOO........OOOOO.UUUUU......UUUU........TTTT......
+//...AAAAA...AAAAA....BBBBBBBBBBBBBBB.OOOOO........OOOOO.UUUUU......UUUU........TTTT......
+//..AAAAAAAAAAAAAA....BBBB....BBBBBBB.OOOOOO.......OOOOO.UUUUU......UUUU........TTTT......
+//..AAAAAAAAAAAAAAA...BBBB......BBBBB.OOOOOO......OOOOOO.UUUUU.....UUUUU........TTTT......
+//..AAAAAAAAAAAAAAA...BBBB......BBBBB..OOOOOO.....OOOOOO.UUUUUU....UUUUU........TTTT......
+//.AAAAAA.....AAAAAA..BBBB.....BBBBBB..OOOOOOOOOOOOOOOO...UUUUUUUUUUUUUU........TTTT......
+//.AAAAA......AAAAAA..BBBBBBBBBBBBBBB...OOOOOOOOOOOOOOO...UUUUUUUUUUUUUU........TTTT......
+//.AAAAA.......AAAAA..BBBBBBBBBBBBBB.....OOOOOOOOOOOOO.....UUUUUUUUUUUU.........TTTT......
+//.AAAAA.......AAAAAA.BBBBBBBBBBBBB.......OOOOOOOOOO........UUUUUUUUUU..........TTTT......
+//........................................................................................ */
+/* about 2 */
+/* end about section */
+/* //.........................................................................................
+//....CCCCCCC......OOOOOOO.....NNNN...NNNN..TTTTTTTTTTA..AAAA........CCCCCCC...CTTTTTTTTT..
+//...CCCCCCCCC....OOOOOOOOOO...NNNNN..NNNN..TTTTTTTTTTA.AAAAAA......CCCCCCCCC..CTTTTTTTTT..
+//..CCCCCCCCCCC..OOOOOOOOOOOO..NNNNN..NNNN..TTTTTTTTTTA.AAAAAA.....CCCCCCCCCCC.CTTTTTTTTT..
+//..CCCC...CCCCC.OOOOO..OOOOO..NNNNNN.NNNN.....TTTT.....AAAAAAA...ACCCC...CCCC.....TTTT....
+//.CCCC.....CCC.OOOOO....OOOOO.NNNNNN.NNNN.....TTTT....AAAAAAAA...ACCC....CCC......TTTT....
+//.CCCC.........OOOO......OOOO.NNNNNNNNNNN.....TTTT....AAAAAAAA...ACCC.............TTTT....
+//.CCCC.........OOOO......OOOO.NNNNNNNNNNN.....TTTT....AAAA.AAAA..ACCC.............TTTT....
+//.CCCC.........OOOO......OOOO.NNNNNNNNNNN.....TTTT...AAAAAAAAAA..ACCC.............TTTT....
+//.CCCC.....CCC.OOOOO....OOOOO.NNNNNNNNNNN.....TTTT...AAAAAAAAAAA.ACCC....CCC......TTTT....
+//..CCCC...CCCCC.OOOOO..OOOOO..NNNN.NNNNNN.....TTTT..TAAAAAAAAAAA.ACCCC...CCCCC....TTTT....
+//..CCCCCCCCCCC..OOOOOOOOOOOO..NNNN..NNNNN.....TTTT..TAAA....AAAA..CCCCCCCCCCC.....TTTT....
+//...CCCCCCCCCC...OOOOOOOOOO...NNNN..NNNNN.....TTTT..TAAA....AAAAA..CCCCCCCCC......TTTT....
+//....CCCCCCC.......OOOOOO.....NNNN...NNNN.....TTTT.TTAAA.....AAAA...CCCCCCC.......TTTT....
+//......................................................................................... */
+/* end contact */
+/* //.....................................................................................................
+//.FFFFFFFFFFFFF.....OOOOOOOOOO.........OOOOOOOOOO.....TTTTTTTTTTTTTTTEEEEEEEEEEEEEE..RRRRRRRRRRRRR....
+//.FFFFFFFFFFFFF....OOOOOOOOOOOOO.....OOOOOOOOOOOOO....TTTTTTTTTTTTTTTEEEEEEEEEEEEEE..RRRRRRRRRRRRRR...
+//.FFFFFFFFFFFFF...OOOOOOOOOOOOOOO...OOOOOOOOOOOOOOO...TTTTTTTTTTTTTTTEEEEEEEEEEEEEE..RRRRRRRRRRRRRRR..
+//.FFFFF..........OOOOOOOO.OOOOOOO...OOOOOOO.OOOOOOOO.......TTTTT.....EEEEE...........RRRRR....RRRRRR..
+//.FFFFF..........OOOOOO.....OOOOOO.OOOOOO.....OOOOOO.......TTTTT.....EEEEE...........RRRRR.....RRRRR..
+//.FFFFF.........FOOOOO......OOOOOO.OOOOO.......OOOOO.......TTTTT.....EEEEE...........RRRRR.....RRRRR..
+//.FFFFF.........FOOOOO.......OOOOO.OOOOO.......OOOOOO......TTTTT.....EEEEE...........RRRRR...RRRRRRR..
+//.FFFFFFFFFFFF..FOOOO........OOOOO.OOOOO........OOOOO......TTTTT.....EEEEEEEEEEEEE...RRRRRRRRRRRRRRR..
+//.FFFFFFFFFFFF..FOOOO........OOOOO.OOOOO........OOOOO......TTTTT.....EEEEEEEEEEEEE...RRRRRRRRRRRRRR...
+//.FFFFFFFFFFFF..FOOOO........OOOOO.OOOOO........OOOOO......TTTTT.....EEEEEEEEEEEEE...RRRRRRRRRRRRR....
+//.FFFFF.........FOOOOO.......OOOOO.OOOOO.......OOOOOO......TTTTT.....EEEEE...........RRRRRRRRRRRRR....
+//.FFFFF.........FOOOOO......OOOOOO.OOOOOO......OOOOO.......TTTTT.....EEEEE...........RRRRR..RRRRRR....
+//.FFFFF..........OOOOOO.....OOOOOO.OOOOOO.....OOOOOO.......TTTTT.....EEEEE...........RRRRR...RRRRRR...
+//.FFFFF..........OOOOOOOOOOOOOOOO...OOOOOOO.OOOOOOOO.......TTTTT.....EEEEE...........RRRRR....RRRRRR..
+//.FFFFF...........OOOOOOOOOOOOOOO...OOOOOOOOOOOOOOO........TTTTT.....EEEEEEEEEEEEEE..RRRRR....RRRRRR..
+//.FFFFF............OOOOOOOOOOOOO.....OOOOOOOOOOOOO.........TTTTT.....EEEEEEEEEEEEEE..RRRRR.....RRRRR..
+//.FFFFF.............OOOOOOOOOO.........OOOOOOOOOO..........TTTTT.....EEEEEEEEEEEEEE..RRRRR.....RRRRR..
+//..................................................................................................... */
+/* footer end */
+/*/
+/*/
+/* about 2 */
+/* For contact session  */
+/* for footer  */
+/* //...............................................................................................
+//.MMMMMMM....MMMMMMM.....OOOOOOOOOO......BBBBBBBBBBBBB....IIIII..LLLLL.........LEEEEEEEEEEEEEE..
+//.MMMMMMM....MMMMMMM....OOOOOOOOOOOOO....BBBBBBBBBBBBBB...IIIII..LLLLL.........LEEEEEEEEEEEEEE..
+//.MMMMMMM....MMMMMMM...OOOOOOOOOOOOOOO...BBBBBBBBBBBBBBB..IIIII..LLLLL.........LEEEEEEEEEEEEEE..
+//.MMMMMMMM...MMMMMMM..OOOOOOOO.OOOOOOO...BBBBB....BBBBBB..IIIII..LLLLL.........LEEEE............
+//.MMMMMMMM..MMMMMMMM..OOOOOO.....OOOOOO..BBBBB.....BBBBB..IIIII..LLLLL.........LEEEE............
+//.MMMMMMMM..MMMMMMMM..OOOOO.......OOOOO..BBBBB.....BBBBB..IIIII..LLLLL.........LEEEE............
+//.MMMMMMMM..MMMMMMMM.MOOOOO.......OOOOO..BBBBB....BBBBBB..IIIII..LLLLL.........LEEEE............
+//.MMMMMMMMMMMMMMMMMM.MOOOO........OOOOO..BBBBBBBBBBBBBB...IIIII..LLLLL.........LEEEEEEEEEEEEE...
+//.MMMMMMMMMMMMMMMMMM.MOOOO........OOOOO..BBBBBBBBBBBBBB...IIIII..LLLLL.........LEEEEEEEEEEEEE...
+//.MMMMMMMMMMMMMMMMMM.MOOOO........OOOOO..BBBBBBBBBBBBBBB..IIIII..LLLLL.........LEEEEEEEEEEEEE...
+//.MMMMMMMMMMMMMMMMMM.MOOOOO.......OOOOO..BBBBB....BBBBBBB.IIIII..LLLLL.........LEEEE............
+//.MMMMMMMMMMMMMMMMMM..OOOOO.......OOOOO..BBBBB.....BBBBBB.IIIII..LLLLL.........LEEEE............
+//.MMMMM.MMMMMMMMMMMM..OOOOOO.....OOOOOO..BBBBB......BBBBB.IIIII..LLLLL.........LEEEE............
+//.MMMMM.MMMMMM.MMMMM..OOOOOOOO.OOOOOOO...BBBBB....BBBBBBB.IIIII..LLLLL.........LEEEE............
+//.MMMMM.MMMMMM.MMMMM...OOOOOOOOOOOOOOO...BBBBBBBBBBBBBBB..IIIII..LLLLLLLLLLLLLLLEEEEEEEEEEEEEE..
+//.MMMMM.MMMMMM.MMMMM....OOOOOOOOOOOOO....BBBBBBBBBBBBBBB..IIIII..LLLLLLLLLLLLLLLEEEEEEEEEEEEEE..
+//.MMMMM..MMMMM..MMMM.....OOOOOOOOOO......BBBBBBBBBBBBBB...IIIII..LLLLLLLLLLLLLLLEEEEEEEEEEEEEE..
+//............................................................................................... */
+/* For better view on larger screens */
+/* //.................................................................
+//.EEEEEEEEEEEEEEEEEE..ENNNNNN......NNNNNN...DDDDDDDDDDDDDDD.......
+//.EEEEEEEEEEEEEEEEEE..ENNNNNN......NNNNNN...DDDDDDDDDDDDDDDDD.....
+//.EEEEEEEEEEEEEEEEEE..ENNNNNNN.....NNNNNN...DDDDDDDDDDDDDDDDDD....
+//.EEEEEEEEEEEEEEEEEE..ENNNNNNN.....NNNNNN...DDDDDDDDDDDDDDDDDD....
+//.EEEEEE..............ENNNNNNNN....NNNNNN...DDDDDD...DDDDDDDDDD...
+//.EEEEEE..............ENNNNNNNNN...NNNNNN...DDDDDD......DDDDDDD...
+//.EEEEEE..............ENNNNNNNNN...NNNNNN...DDDDDD.......DDDDDD...
+//.EEEEEE..............ENNNNNNNNNN..NNNNNN...DDDDDD.......DDDDDDD..
+//.EEEEEE..............ENNNNNNNNNN..NNNNNN...DDDDDD........DDDDDD..
+//.EEEEEEEEEEEEEEEEE...ENNNNNNNNNNN.NNNNNN...DDDDDD........DDDDDD..
+//.EEEEEEEEEEEEEEEEE...ENNNNNNNNNNNNNNNNNN...DDDDDD........DDDDDD..
+//.EEEEEEEEEEEEEEEEE...ENNNNNNNNNNNNNNNNNN...DDDDDD........DDDDDD..
+//.EEEEEEEEEEEEEEEEE...ENNNNN.NNNNNNNNNNNN...DDDDDD........DDDDDD..
+//.EEEEEE..............ENNNNN..NNNNNNNNNNN...DDDDDD........DDDDDD..
+//.EEEEEE..............ENNNNN..NNNNNNNNNNN...DDDDDD.......DDDDDDD..
+//.EEEEEE..............ENNNNN...NNNNNNNNNN...DDDDDD.......DDDDDDD..
+//.EEEEEE..............ENNNNN...NNNNNNNNNN...DDDDDD......DDDDDDD...
+//.EEEEEE..............ENNNNN....NNNNNNNNN...DDDDDD....DDDDDDDDD...
+//.EEEEEEEEEEEEEEEEEE..ENNNNN.....NNNNNNNN...DDDDDDDDDDDDDDDDDD....
+//.EEEEEEEEEEEEEEEEEE..ENNNNN.....NNNNNNNN...DDDDDDDDDDDDDDDDDD....
+//.EEEEEEEEEEEEEEEEEE..ENNNNN......NNNNNNN...DDDDDDDDDDDDDDDDD.....
+//.EEEEEEEEEEEEEEEEEE..ENNNNN......NNNNNNN...DDDDDDDDDDDDDDD.......
+//................................................................. */
+* {
+	box-sizing: border-box;
+}
+&::after {
+	box-sizing: border-box;
+}
+&::before {
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: $font-family_1;
+	font-size: 16px;
+	font-weight: 400;
+}
+/....................................................................................................... {
+	//.HHHHH.....HHHHH..HEEEEEEEEEEEEEE.....AAAAAAA.......DDDDDDDDDDDD.....DEEEEEEEEEEEEE..ERRRRRRRRRRRRR.... {
+		//.HHHHH.....HHHHH..HEEEEEEEEEEEEEE.....AAAAAAA.......DDDDDDDDDDDDDD...DEEEEEEEEEEEEE..ERRRRRRRRRRRRRR... {
+			//.HHHHH.....HHHHH..HEEEEEEEEEEEEEE.....AAAAAAAA......DDDDDDDDDDDDDD...DEEEEEEEEEEEEE..ERRRRRRRRRRRRRR... {
+				//.HHHHH.....HHHHH..HEEEE..............AAAAAAAAA......DDDDD..DDDDDDDD..DEEEE...........ERRRR....RRRRRR... {
+					//.HHHHH.....HHHHH..HEEEE..............AAAAAAAAA......DDDDD.....DDDDD..DEEEE...........ERRRR.....RRRRR... {
+						//.HHHHH.....HHHHH..HEEEE..............AAAAAAAAAA.....DDDDD.....DDDDDD.DEEEE...........ERRRR.....RRRRR... {
+							//.HHHHH.....HHHHH..HEEEE.............AAAAA.AAAAA.....DDDDD......DDDDD.DEEEE...........ERRRR....RRRRRR... {
+								//.HHHHHHHHHHHHHHH..HEEEEEEEEEEEEE....AAAAA.AAAAAA....DDDDD......DDDDD.DEEEEEEEEEEEEE..ERRRRRRRRRRRRRR... {
+									//.HHHHHHHHHHHHHHH..HEEEEEEEEEEEEE...AAAAAA..AAAAA....DDDDD......DDDDD.DEEEEEEEEEEEEE..ERRRRRRRRRRRRR.... {
+										//.HHHHHHHHHHHHHHH..HEEEEEEEEEEEEE...AAAAA...AAAAA....DDDDD......DDDDD.DEEEEEEEEEEEEE..ERRRRRRRRRRRR..... {
+											//.HHHHH.....HHHHH..HEEEE............AAAAAAAAAAAAAA...DDDDD......DDDDD.DEEEE...........ERRRR.RRRRRRR..... {
+												//.HHHHH.....HHHHH..HEEEE...........EAAAAAAAAAAAAAA...DDDDD.....DDDDDD.DEEEE...........ERRRR..RRRRRRR.... {
+													//.HHHHH.....HHHHH..HEEEE...........EAAAAAAAAAAAAAA...DDDDD.....DDDDD..DEEEE...........ERRRR...RRRRRR.... {
+														//.HHHHH.....HHHHH..HEEEE...........EAAAA.....AAAAAA..DDDDD...DDDDDDD..DEEEE...........ERRRR....RRRRRR... {
+															//.HHHHH.....HHHHH..HEEEEEEEEEEEEEEEEAAAA......AAAAA..DDDDDDDDDDDDDD...DEEEEEEEEEEEEEE.ERRRR....RRRRRRR.. {
+																//.HHHHH.....HHHHH..HEEEEEEEEEEEEEEEEAAA.......AAAAAA.DDDDDDDDDDDDDD...DEEEEEEEEEEEEEE.ERRRR.....RRRRRR.. {
+																	//.HHHHH.....HHHHH..HEEEEEEEEEEEEEEEEAAA.......AAAAAA.DDDDDDDDDDDD.....DEEEEEEEEEEEEEE.ERRRR......RRRRR.. {
+																		//.......................................................................................................*/ {
+																			.main-page-header {
+																				background: transparent;
+																				display: block;
+																				left: 0;
+																				padding-left: 30px;
+																				padding-right: 30px;
+																				position: absolute;
+																				right: 0;
+																				top: 0;
+																				width: auto;
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.header {
+	align-items: center;
+	background: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+.header-right {
+	align-items: center;
+	background: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	.header-btn {
+		margin-left: 20px;
+		a {
+			border-radius: 6px;
+			border: 2px solid #b1b4c1;
+			color: $color_1;
+			display: inline-block;
+			font-size: 14px;
+			font-weight: 500;
+			height: 46px;
+			letter-spacing: 1px;
+			line-height: 42px;
+			padding: 0 25px;
+			position: relative;
+			text-decoration: none;
+			transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+			z-index: 2;
+			&:hover {
+				background: #4cb0ef;
+				border-color: $border-color_1;
+				border-radius: 6px;
+				border: 2px solid #4cb0ef;
+				color: $color_1;
+				transform: translateY(-3px);
+			}
+		}
+	}
+	.humberger-menu {
+		display: none;
+	}
+}
+.header-left {
+	a {
+		background: transparent;
+		display: block;
+		font-size: 39px;
+		font-weight: 700;
+		img {
+			background: transparent;
+			max-height: 50px;
+		}
+	}
+}
+.navbar {
+	ul {
+		background: transparent;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			background: transparent;
+			line-height: 28px;
+			margin: 0 9px;
+			position: relative;
+			a {
+				background: transparent;
+				color: $color_1;
+				display: inline-block;
+				font-size: 16px;
+				font-weight: 500;
+				padding: 20px 0;
+				position: relative;
+				text-decoration: none;
+				&:active {
+					background: transparent;
+					color: $color_2;
+					text-decoration: none;
+					&::before {
+						width: 100%;
+					}
+				}
+				&:hover {
+					background: transparent;
+					color: $color_2;
+					text-decoration: none;
+					&::before {
+						width: 100%;
+					}
+				}
+				&::before {
+					transition: 0.3s;
+					background: #4cb0ef;
+					bottom: 0;
+					content: "";
+					height: 3px;
+					left: 0;
+					position: absolute;
+					transition: 0.3s;
+					width: 0;
+				}
+			}
+		}
+	}
+}
+/........................................................................................... {
+	//.HHHHHH.......HHHHHH........OOOOOOOOOOO.......MMMMMMMM.......MMMMMMMM..EEEEEEEEEEEEEEEEEE.. {
+		//.HHHHHH.......HHHHHH......OOOOOOOOOOOOOOO.....MMMMMMMMM.....MMMMMMMMM..EEEEEEEEEEEEEEEEEE.. {
+			//.HHHHHH.......HHHHHH.....OOOOOOOOOOOOOOOOO....MMMMMMMMM.....MMMMMMMMM..EEEEEEEEEEEEEEEEEE.. {
+				//.HHHHHH.......HHHHHH....OOOOOOOOOOOOOOOOOOO...MMMMMMMMM.....MMMMMMMMM..EEEEEEEEEEEEEEEEEE.. {
+					//.HHHHHH.......HHHHHH....OOOOOOOOO.OOOOOOOOO...MMMMMMMMMM....MMMMMMMMM..EEEEEE.............. {
+						//.HHHHHH.......HHHHHH...OOOOOOOO.....OOOOOOOO..MMMMMMMMMM...MMMMMMMMMM..EEEEEE.............. {
+							//.HHHHHH.......HHHHHH...OOOOOOO.......OOOOOOO..MMMMMMMMMM...MMMMMMMMMM..EEEEEE.............. {
+								//.HHHHHH.......HHHHHH...OOOOOO.........OOOOOO..MMMMMMMMMM...MMMMMMMMMM..EEEEEE.............. {
+									//.HHHHHH.......HHHHHH...OOOOOO.........OOOOOO..MMMMMMMMMMM..MMMMMMMMMM..EEEEEE.............. {
+										//.HHHHHHHHHHHHHHHHHHH..HOOOOOO.........OOOOOOO.MMMMMMMMMMM.MMMMMMMMMMM..EEEEEEEEEEEEEEEEE... {
+											//.HHHHHHHHHHHHHHHHHHH..HOOOOO...........OOOOOO.MMMMMMMMMMM.MMMMMMMMMMM..EEEEEEEEEEEEEEEEE... {
+												//.HHHHHHHHHHHHHHHHHHH..HOOOOO...........OOOOOO.MMMMMMMMMMM.MMMMMMMMMMM..EEEEEEEEEEEEEEEEE... {
+													//.HHHHHHHHHHHHHHHHHHH..HOOOOOO.........OOOOOOO.MMMMMM.MMMMMMMMMMMMMMMM..EEEEEEEEEEEEEEEEE... {
+														//.HHHHHH.......HHHHHH...OOOOOO.........OOOOOO..MMMMMM.MMMMMMMMM.MMMMMM..EEEEEE.............. {
+															//.HHHHHH.......HHHHHH...OOOOOO.........OOOOOO..MMMMMM.MMMMMMMMM.MMMMMM..EEEEEE.............. {
+																//.HHHHHH.......HHHHHH...OOOOOOO.......OOOOOOO..MMMMMM.MMMMMMMMM.MMMMMM..EEEEEE.............. {
+																	//.HHHHHH.......HHHHHH...OOOOOOOO.....OOOOOOOO..MMMMMM.MMMMMMMMM.MMMMMM..EEEEEE.............. {
+																		//.HHHHHH.......HHHHHH....OOOOOOOOO.OOOOOOOOO...MMMMMM..MMMMMMM..MMMMMM..EEEEEE.............. {
+																			//.HHHHHH.......HHHHHH....OOOOOOOOOOOOOOOOOOO...MMMMMM..MMMMMMM..MMMMMM..EEEEEEEEEEEEEEEEEE.. {
+																				//.HHHHHH.......HHHHHH.....OOOOOOOOOOOOOOOOO....MMMMMM..MMMMMMM..MMMMMM..EEEEEEEEEEEEEEEEEE.. {
+																					//.HHHHHH.......HHHHHH......OOOOOOOOOOOOOOO.....MMMMMM..MMMMMMM..MMMMMM..EEEEEEEEEEEEEEEEEE.. {
+																						//.HHHHHH.......HHHHHH........OOOOOOOOOOO.......MMMMMM...MMMMM...MMMMMM..EEEEEEEEEEEEEEEEEE.. {
+																							//........................................................................................... {
+																								*/ {
+																									.home {
+																										.home-page {
+																											align-items: center;
+																											background-image: url(../images/bg-image-27.jpg);
+																											background-repeat: no-repeat;
+																											background-size: cover;
+																											display: flex;
+																											height: 100vh !important;
+																											justify-content: center;
+																											min-height: auto;
+																											overflow: hidden;
+																											padding-bottom: 170px;
+																											padding-top: 160px;
+																										}
+																									}
+																								}
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.home {
+	.home-page {
+		.home-text {
+			padding-top: 30px;
+			text-align: center;
+			h1 {
+				background: linear-gradient(145deg, #4cb0eb, #85c8ef);
+				color: $color_3;
+				-webkit-background-clip: text;
+				display: inline-block;
+				font-family: $font-family_2;
+				font-size: 65px;
+				font-weight: 900;
+				letter-spacing: 0px;
+				line-height: 103px;
+				margin-bottom: 15px;
+				margin: 0;
+				text-transform: uppercase;
+				word-spacing: 0px;
+			}
+			p {
+				color: $color_4;
+				font-size: 24px;
+				font-weight: 300;
+				line-height: 40px;
+				margin: 0;
+				padding: 0 16%;
+			}
+			.home-btn {
+				margin-top: 50px;
+				a {
+					background-color: $background-color_1;
+					border-radius: 6px;
+					border: 2px solid #b1b4c1;
+					color: $color_4;
+					display: inline-block;
+					font-size: 16px;
+					font-weight: 500;
+					letter-spacing: 2px;
+					padding: 20px 40px;
+					text-align: center;
+					text-decoration: none;
+					transition: 0.3s;
+					&:hover {
+						background: #4cb0ef;
+						border-color: $border-color_2;
+						box-shadow: 0 10px 15px 0 rgba(76, 176, 239, 0.1);
+						color: $color_5;
+						transform: translateY(-5px);
+					}
+				}
+			}
+		}
+	}
+}
+/........................................................................................................................... {
+	//....SSSSSSSSSS....EEEEEEEEEEEEEE..RRRRRRRRRRRRRR.RRVVVV......VVVVVVIIIII.....CCCCCCCCCC....EEEEEEEEEEEEEE....SSSSSSSSSS.... {
+		//...SSSSSSSSSSSS...EEEEEEEEEEEEEE..RRRRRRRRRRRRRRR.RVVVV......VVVVV.IIIII...CCCCCCCCCCCCC...EEEEEEEEEEEEEE...SSSSSSSSSSSS... {
+			//..SSSSSSSSSSSSS...EEEEEEEEEEEEEE..RRRRRRRRRRRRRRR.RVVVV......VVVVV.IIIII..CCCCCCCCCCCCCCC..EEEEEEEEEEEEEE..SSSSSSSSSSSSS... {
+				//..SSSSSS.SSSSSSS..EEEEE...........RRRRR....RRRRRR.RVVVVV....VVVVVV.IIIII..CCCCCCC.CCCCCCC..EEEEE...........SSSSSS.SSSSSSS.. {
+					//..SSSSS....SSSSS..EEEEE...........RRRRR.....RRRRR..VVVVV....VVVVV..IIIII.ICCCCC.....CCCCC..EEEEE...........SSSSS....SSSSS.. {
+						//..SSSSSSS.........EEEEE...........RRRRR.....RRRRR..VVVVV....VVVVV..IIIII.ICCCCC............EEEEE...........SSSSSSS......... {
+							//..SSSSSSSSSS......EEEEE...........RRRRR....RRRRRR..VVVVVV..VVVVVV..IIIII.ICCCC.............EEEEE...........SSSSSSSSSS...... {
+								//...SSSSSSSSSSSS...EEEEEEEEEEEEEE..RRRRRRRRRRRRRRR...VVVVV..VVVVV...IIIII.ICCCC.............EEEEEEEEEEEEEE...SSSSSSSSSSSS... {
+									//....SSSSSSSSSSSS..EEEEEEEEEEEEEE..RRRRRRRRRRRRRR....VVVVV..VVVVV...IIIII.ICCCC.............EEEEEEEEEEEEEE....SSSSSSSSSSSS.. {
+										//......SSSSSSSSSS..EEEEEEEEEEEEEE..RRRRRRRRRRRRR.....VVVVVVVVVVV....IIIII.ICCCC.............EEEEEEEEEEEEEE......SSSSSSSSSS.. {
+											//..........SSSSSS..EEEEE...........RRRRR.RRRRRRR......VVVVVVVVVV....IIIII.ICCCC.............EEEEE...................SSSSSS.. {
+												//.SSSSS......SSSSS.EEEEE...........RRRRR..RRRRRRR.....VVVVVVVVVV....IIIII.ICCCCC............EEEEE..........ESSSS......SSSS.. {
+													//.SSSSSS....SSSSSS.EEEEE...........RRRRR...RRRRRR.....VVVVVVVVV.....IIIII.ICCCCC.....CCCCC..EEEEE..........ESSSSS....SSSSS.. {
+														//..SSSSSSSSSSSSSS..EEEEE...........RRRRR....RRRRRR.....VVVVVVVV.....IIIII..CCCCCCC.CCCCCCC..EEEEE...........SSSSSSSSSSSSSS.. {
+															//..SSSSSSSSSSSSSS..EEEEEEEEEEEEEEE.RRRRR....RRRRRRR....VVVVVVVV.....IIIII..CCCCCCCCCCCCCCC..EEEEEEEEEEEEEEE.SSSSSSSSSSSSSS.. {
+																//...SSSSSSSSSSSS...EEEEEEEEEEEEEEE.RRRRR.....RRRRRR....VVVVVVV......IIIII...CCCCCCCCCCCCC...EEEEEEEEEEEEEEE..SSSSSSSSSSSS... {
+																	//....SSSSSSSSSS....EEEEEEEEEEEEEEE.RRRRR......RRRRRR....VVVVVV......IIIII.....CCCCCCCCCC....EEEEEEEEEEEEEEE...SSSSSSSSSS.... {
+																		//........................................................................................................................... {
+																			*/ {
+																				.services {
+																					.services-section {
+																						background: #191919;
+																						border-style: none;
+																						padding: 120px 0;
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.services {
+	.services-section {
+		.services-area {
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 960px;
+			padding-left: 35px;
+			padding-right: 35px;
+			width: 100%;
+			.services-title {
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap;
+				margin-bottom: 20px;
+				margin-left: -15px;
+				margin-right: -15px;
+				margin-top: -20px;
+				padding-left: 15px;
+				padding-right: 15px;
+				position: relative;
+				text-align: left;
+				width: 100%;
+				h2 {
+					color: $color_1;
+					font-size: 60px;
+					font-weight: 700;
+					line-height: 1.4;
+					margin-bottom: 8px;
+					margin-top: 94px;
+				}
+				p {
+					color: $color_6;
+					display: inline-block;
+					font-size: 18px;
+					font-weight: 300;
+					line-height: 30px;
+					margin-bottom: 15px;
+					margin-top: 0;
+					padding: 0;
+				}
+			}
+			.services-boxes {
+				display: flex;
+				flex-wrap: wrap;
+				margin-left: -15px;
+				margin-right: -15px;
+				.services-item {
+					flex: 0 0 33.333333%;
+					margin-top: 30px;
+					max-width: 33.333333%;
+					padding-left: 15px;
+					padding-right: 15px;
+					padding-right: 15px;
+					transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+					a {
+						background: #000000;
+						border-radius: 10px;
+						border: 2px solid #000000;
+						box-shadow: none;
+						display: flex;
+						height: 100%;
+						margin: 0;
+						padding: 28px;
+						position: relative;
+						text-decoration: none;
+						transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+						z-index: 2;
+						.service {
+							.icon {
+								color: $color_2;
+								display: inline-flex;
+								font-size: 54px;
+								font-weight: 400;
+								margin-bottom: 23px;
+								transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+								i {
+									display: inline-block;
+									font-size: 50px;
+									font-style: normal;
+									font-variant: normal;
+									font-weight: 900;
+									line-height: 1;
+									text-rendering: auto;
+								}
+							}
+							.content {
+								h3 {
+									color: $color_1;
+									font-size: 20px;
+									font-weight: 500;
+									line-height: 1.4074;
+									margin-bottom: 14px;
+									transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+								}
+								p {
+									color: $color_6;
+									font-size: 18px;
+									line-height: 30px;
+									transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+								}
+							}
+						}
+						&:hover {
+							background: #4cb0ef;
+							border-color: $border-color_1;
+							border-radius: 6px;
+							border: 2px solid #4cb0ef;
+							color: $color_1;
+							text-decoration: none;
+							transform: translateY(-3px);
+							.service {
+								.icon {
+									color: $color_5;
+								}
+								.content {
+									p {
+										color: $color_5;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.service {
+	.services-section {
+		.services-area {
+			.services-boxes {
+				.services-item {
+					a {
+						&::before {
+							background-image: linear-gradient(to right, #4cb0eb, #85c8ef);
+							border-radius: 10px;
+							content: "";
+							height: 100%;
+							left: 0;
+							opacity: 0;
+							position: absolute;
+							top: 0;
+							transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+							visibility: hidden;
+							width: 100%;
+							z-index: -1;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.about {
+	.about-container {
+		align-content: flex-start;
+		display: flex;
+		flex-wrap: wrap;
+		position: relative;
+		.about-area {
+			background-color: $background-color_2;
+			width: 100%;
+			padding: 120px 0;
+			.container {
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 960px;
+				padding-left: 15px;
+				padding-right: 15px;
+				width: 100%;
+				.content-container {
+					align-items: center;
+					display: flex;
+					flex-wrap: wrap;
+					margin-left: -25px;
+					margin-right: -25px;
+					.img-container {
+						flex: 0 0 41.666667%;
+						max-width: 41.666667%;
+						padding-left: 25px;
+						padding-right: 25px;
+						position: relative;
+						width: 100%;
+						.thumbnail {
+							position: relative;
+							z-index: 2;
+							img {
+								border-radius: 8px;
+								border: none;
+								box-shadow: none;
+								height: auto;
+								max-width: 100%;
+								object-fit: cover;
+							}
+						}
+					}
+					.text-container {
+						flex: 0 0 58.333333%;
+						max-width: 58.333333%;
+						padding-left: 25px;
+						padding-right: 25px;
+						position: relative;
+						width: 100%;
+						.text {
+							.main-text {
+								margin-top: -20px;
+								text-align: left;
+								h2 {
+									color: $color_1;
+									font-size: 60px;
+									font-weight: 700;
+									line-height: 1.4074;
+									margin-bottom: 8px;
+								}
+								p {
+									color: $color_6;
+									font-size: 18px;
+									font-weight: 300;
+									line-height: 30px;
+									margin-bottom: 0;
+									padding: 0;
+								}
+							}
+							.questions {
+								display: flex;
+								.question {
+									flex: 0 0 50%;
+									margin-top: 15px;
+									max-width: 50%;
+									padding-left: 15px;
+									padding-right: 15px;
+									position: relative;
+									text-align: left;
+									width: 100%;
+									h4 {
+										color: $color_1;
+										font-size: 30px;
+										font-weight: 500;
+										line-height: 1.4074;
+										margin-bottom: 20px;
+									}
+									p {
+										color: $color_6;
+										font-size: 18px;
+										font-weight: 300;
+										line-height: 30px;
+										margin-bottom: 0;
+										margin: 0 0 40px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.about-2 {
+	background: #101010;
+	padding: 110px 0px 100px 0px;
+	position: relative;
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1024px;
+		position: relative;
+		.content-container {
+			align-content: flex-start;
+			display: flex;
+			flex-wrap: wrap;
+			position: relative;
+			width: 100%;
+			.title {
+				align-items: flex-start;
+				display: flex;
+				justify-content: center;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 15px;
+				position: relative;
+				width: 100%;
+				.text {
+					margin-bottom: 20px;
+					margin-top: -20px;
+					text-align: center;
+					.subtitle {
+						color: $color_2;
+						font-size: 16px;
+						letter-spacing: 1px;
+					}
+					h3 {
+						color: $color_1;
+						font-size: 40px;
+						font-weight: 500;
+						line-height: 1.4074;
+						margin: 10px 0px 20px 0px;
+					}
+				}
+			}
+		}
+	}
+}
+.content-container {
+	.value-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-bottom: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -50px;
+		position: relative;
+		width: 100%;
+		.value {
+			display: flex;
+			min-height: 1px;
+			position: relative;
+			.digits {
+				align-content: flex-start;
+				display: flex;
+				flex-wrap: wrap;
+				margin-top: 40px;
+				padding: 15px;
+				position: relative;
+				width: 100%;
+				h5 {
+					color: $color_2;
+					display: inline-block;
+					font-size: 72px;
+					font-weight: 600;
+					line-height: 80px;
+					margin-bottom: 17px;
+					margin-left: -13px;
+					position: relative;
+					&::after {
+						color: $color_2;
+						content: "+";
+						font-size: 40px;
+						line-height: 80px;
+						position: absolute;
+						right: -26px;
+						top: -17px;
+					}
+				}
+			}
+		}
+	}
+}
+.contact {
+	.contact-area {
+		align-items: flex-start;
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+		.contact-container {
+			background: #101010;
+			padding: 120px 0;
+			width: 100%;
+			.container {
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 960px;
+				padding-left: 15px;
+				padding-right: 15px;
+				width: 100%;
+				.contact-row {
+					align-items: flex-start;
+					display: flex;
+					flex-wrap: nowrap;
+					margin-left: -25px;
+					margin-right: -25px;
+					.contact-form {
+						padding-left: 25px;
+						padding-right: 25px;
+						.title {
+							margin-bottom: 50px;
+							margin-top: -20px;
+							text-align: left;
+							h2 {
+								color: $color_1;
+								font-size: 60px;
+								font-weight: 700;
+								line-height: 1.4074;
+								margin-bottom: 8px;
+							}
+							p {
+								color: $color_6;
+								font-size: 18px;
+								line-height: 30px;
+								margin-bottom: 0;
+								padding: 0;
+							}
+						}
+						.form {
+							label {
+								display: block;
+								margin-bottom: 20px;
+								input[type="text"] {
+									background: transparent;
+									border-radius: 5px;
+									border: 2px solid #000000;
+									box-shadow: none;
+									color: $color_6;
+									display: block;
+									font-size: 15px;
+									font-weight: 400;
+									height: 50px;
+									letter-spacing: 0.1px;
+									line-height: 46px;
+									margin-bottom: 20px;
+									outline: none;
+									padding: 0 20px;
+									transition: all 0.3s ease;
+									width: 100%;
+								}
+								textarea {
+									background: transparent;
+									border-radius: 5px;
+									border: 2px solid rgba(255, 255, 255, 0.2);
+									box-shadow: none;
+									color: $color_6;
+									display: block;
+									font-size: 15px;
+									font-weight: 400;
+									height: 120px;
+									letter-spacing: 0.1px;
+									line-height: 46px;
+									margin-bottom: 20px;
+									outline: none;
+									padding: 0 20px;
+									transition: all 0.3s ease;
+									width: 100%;
+								}
+							}
+							.contact-button {
+								background: #4cb0ef;
+								border-radius: 6px;
+								border: 2px solid #4cb0ef;
+								color: $color_1;
+								display: inline-block;
+								font-family: $font-family_3;
+								font-size: 16px;
+								font-weight: 500;
+								letter-spacing: 2px;
+								padding: 18px 40px;
+								transition: 0.3s;
+								&:hover {
+									background: transparent;
+									border: 2px solid #4cb0ef;
+									box-shadow: 0 10px 15px 0 rgba(76, 176, 239, 0.1);
+									color: $color_2;
+									transform: translateY(-5px);
+								}
+							}
+						}
+					}
+					.contact-image {
+						flex: 0 0 50%;
+						margin-top: 49px;
+						max-width: 50%;
+						padding-left: 25px;
+						padding-right: 25px;
+						img {
+							border-radius: 8px;
+							border: none;
+							box-shadow: none;
+							height: auto;
+							max-width: 100%;
+							object-fit: cover;
+							vertical-align: middle;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+input[type="email"] {
+	background: transparent;
+	border-radius: 5px;
+	border: 2px solid #000000;
+	box-shadow: none;
+	color: $color_6;
+	display: block;
+	font-size: 15px;
+	font-weight: 400;
+	height: 50px;
+	letter-spacing: 0.1px;
+	line-height: 46px;
+	margin-bottom: 20px;
+	outline: none;
+	padding: 0 20px;
+	transition: all 0.3s ease;
+	width: 100%;
+}
+.footer {
+	background-color: $background-color_2;
+	padding: 30px 0;
+	.footer-container {
+		padding: 0 50px;
+		position: relative;
+		z-index: 1;
+		.content-container {
+			align-items: center;
+			display: flex;
+			flex-wrap: wrap;
+			margin-left: -15px;
+			margin-right: -15px;
+			.footer-logo {
+				flex: 0 0 33.333333%;
+				max-width: 33.333333%;
+				padding-left: 15px;
+				padding-right: 15px;
+				position: relative;
+				width: 100%;
+				.logo {
+					text-align: left;
+					a {
+						img {
+							max-height: 66px;
+							vertical-align: middle;
+						}
+					}
+				}
+			}
+			.footer-icons {
+				flex: 0 0 33.333333%;
+				max-width: 33.333333%;
+				padding-left: 15px;
+				padding-right: 15px;
+				ul {
+					display: flex;
+					justify-content: center;
+					list-style: none;
+					margin: 0;
+					li {
+						margin: 6px;
+						a {
+							background-color: $background-color_1;
+							border-radius: 100%;
+							border: 2px solid rgba(198, 201, 216, 0.75);
+							color: $color_6;
+							display: inline-block;
+							font-size: 16px;
+							height: 50px;
+							line-height: 47px;
+							text-align: center;
+							transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+							width: 50px;
+							&:hover {
+								background: #4cb0ef;
+								border-color: $border-color_2;
+								color: $color_1;
+								transform: translateY(-5px);
+							}
+						}
+					}
+				}
+			}
+			.footer-text {
+				flex: 0 0 33.333333%;
+				max-width: 33.333333%;
+				padding-left: 15px;
+				padding-right: 15px;
+				.text {
+					p {
+						color: $color_6;
+						font-size: 14px;
+						line-height: 1.9;
+						margin-bottom: 0;
+						opacity: 0.75;
+						a {
+							background-color: $background-color_1;
+							color: $color_4;
+							text-decoration: none;
+							transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+							&:hover {
+								color: $color_2;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.header-right {
+		.humberger-menu {
+			display: none;
+		}
+	}
+	.home {
+		.home-page {
+			min-height: auto;
+			padding-bottom: 150px;
+			padding-top: 150px;
+			.home-text {
+				h1 {
+					line-height: 82px;
+					margin-bottom: 8px;
+				}
+				p {
+					padding: 0 10%;
+				}
+				.home-btn {
+					margin-top: 42px;
+				}
+			}
+		}
+	}
+	.services {
+		.services-section {
+			padding: 80px 0;
+			.services-area {
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 720px;
+				.services-title {
+					margin-top: 0;
+					h2 {
+						font-size: 50px;
+						margin-top: 0;
+					}
+				}
+				.services-boxes {
+					.services-item {
+						flex: 0 0 50%;
+						max-width: 50%;
+					}
+				}
+			}
+		}
+	}
+	.about {
+		.about-container {
+			.about-area {
+				padding: 80px 0;
+				.container {
+					max-width: 720px;
+					.content-container {
+						margin-left: -15px;
+						margin-right: -15px;
+						.img-container {
+							flex: 0 0 100%;
+							max-width: 100%;
+							padding-left: 15px;
+							padding-right: 15px;
+							.thumbnail {
+								img {
+									width: 100%;
+								}
+							}
+						}
+						.text-container {
+							flex: 0 0 100%;
+							max-width: 100%;
+							padding-left: 15px;
+							padding-right: 15px;
+							.text {
+								padding-top: 30px;
+								.main-text {
+									margin: 0;
+									h2 {
+										font-size: 40px;
+									}
+									p {
+										font-size: 16px;
+										line-height: 28px;
+									}
+								}
+								.questions {
+									flex-direction: column;
+									margin-top: 10px;
+									.question {
+										flex: 0 0 100%;
+										margin-top: 0;
+										max-width: 100%;
+										padding: 0;
+										h4 {
+											font-size: 25px;
+											margin: 8px 0;
+										}
+										p {
+											font-size: 16px;
+											line-height: 1.7;
+											margin: 0;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.contact {
+		.contact-area {
+			.contact-container {
+				padding: 80px 0;
+				.container {
+					max-width: 720px;
+					.contact-row {
+						flex-direction: column;
+						margin-left: -15px;
+						margin-right: -15px;
+						.contact-form {
+							order: 2;
+							padding-left: 15px;
+							padding-right: 15px;
+							.title {
+								margin-bottom: 30px;
+								margin-top: 0;
+								h2 {
+									font-size: 40px;
+								}
+								p {
+									font-size: 16px;
+									line-height: 28px;
+								}
+							}
+							.form {
+								.contact-button {
+									padding: 13px 25px;
+								}
+							}
+						}
+						.contact-image {
+							flex: 0 0 100%;
+							margin-bottom: 40px;
+							margin-top: 0;
+							max-width: 100%;
+							order: 1;
+							padding-left: 15px;
+							padding-right: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.footer {
+		.footer-container {
+			padding: 0 20px;
+			.content-container {
+				.footer-logo {
+					flex: 0 0 50%;
+					max-width: 50%;
+					.logo {
+						margin-bottom: 20px;
+					}
+				}
+				.footer-icons {
+					flex: 0 0 50%;
+					max-width: 50%;
+				}
+				.footer-text {
+					flex: 0 0 100%;
+					max-width: 100%;
+					.text {
+						margin-top: 20px;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.main-page-header {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.header {
+		padding: 15px 0;
+	}
+	.navbar {
+		display: none;
+	}
+	.humberger-menu {
+		display: block !important;
+		padding-left: 20px;
+	}
+	.menutrigger {
+		svg {
+			height: 30px;
+			width: 30px;
+		}
+	}
+	.home {
+		.home-page {
+			min-height: auto !important;
+			padding-bottom: 90px;
+			padding-top: 150px;
+			.home-text {
+				h1 {
+					line-height: 70px;
+				}
+				p {
+					font-size: 18px;
+					line-height: 30px;
+					margin-top: 20px;
+					padding: 0;
+				}
+				.home-btn {
+					margin-top: 32px;
+					a {
+						padding: 12px 25px;
+					}
+				}
+			}
+		}
+	}
+	.services {
+		.services-section {
+			padding: 0;
+			.services-area {
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 540px;
+				padding: 80px 0;
+				.services-title {
+					margin-bottom: 0;
+					margin-top: 0;
+					h2 {
+						font-size: 40px;
+						margin-top: 0;
+					}
+					p {
+						font-size: 16px;
+						line-height: 28px;
+						padding: 0;
+					}
+				}
+				.services-boxes {
+					.services-item {
+						flex: 0 0 50%;
+						max-width: 50%;
+						a {
+							.service {
+								.content {
+									h3 {
+										font-size: 18px;
+										margin-bottom: 14px;
+									}
+									P {
+										font-size: 16px;
+										line-height: 28px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.about {
+		.about-container {
+			.about-area {
+				padding: 60px 0;
+				.container {
+					max-width: 540px;
+					.content-container {
+						margin-left: -15px;
+						margin-right: -15px;
+						.img-container {
+							flex: 0 0 100%;
+							max-width: 100%;
+							padding-left: 15px;
+							padding-right: 15px;
+							.thumbnail {
+								img {
+									width: 100%;
+								}
+							}
+						}
+						.text-container {
+							flex: 0 0 100%;
+							max-width: 100%;
+							padding-left: 15px;
+							padding-right: 15px;
+							.text {
+								padding-top: 30px;
+								.main-text {
+									margin: 0;
+									h2 {
+										font-size: 40px;
+									}
+									p {
+										font-size: 16px;
+										line-height: 28px;
+									}
+								}
+								.questions {
+									flex-direction: column;
+									margin-top: 10px;
+									.question {
+										flex: 0 0 100%;
+										margin-top: 0;
+										max-width: 100%;
+										padding: 0;
+										h4 {
+											font-size: 25px;
+											margin: 8px 0;
+										}
+										p {
+											font-size: 16px;
+											line-height: 1.7;
+											margin: 0;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.about-2 {
+		padding: 80px 0;
+		.container {
+			max-width: 767px;
+			.content-container {
+				.title {
+					.text {
+						margin-bottom: 0;
+						margin-top: 0;
+						h3 {
+							font-size: 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.content-container {
+		.value-container {
+			.value {
+				width: 100%;
+				.digits {
+					justify-content: center;
+					h5 {
+						font-size: 45px;
+						line-height: 56px;
+						margin-bottom: 5px;
+						margin-left: -11px;
+					}
+				}
+			}
+		}
+	}
+	.contact {
+		.contact-area {
+			.contact-container {
+				padding: 80px 0;
+				.container {
+					max-width: 540px;
+					.contact-row {
+						flex-direction: column;
+						margin-left: -15px;
+						margin-right: -15px;
+						.contact-form {
+							order: 2;
+							padding-left: 15px;
+							padding-right: 15px;
+							.title {
+								margin-bottom: 30px;
+								margin-top: 0;
+								h2 {
+									font-size: 40px;
+								}
+								p {
+									font-size: 16px;
+									line-height: 28px;
+								}
+							}
+							.form {
+								.contact-button {
+									padding: 13px 25px;
+								}
+							}
+						}
+						.contact-image {
+							flex: 0 0 100%;
+							margin-bottom: 40px;
+							margin-top: 0;
+							max-width: 100%;
+							order: 1;
+							padding-left: 15px;
+							padding-right: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.footer {
+		.footer-container {
+			padding: 0 20px;
+			.content-container {
+				.footer-logo {
+					flex: 0 0 50%;
+					max-width: 50%;
+					.logo {
+						margin-bottom: 20px;
+					}
+				}
+				.footer-icons {
+					flex: 0 0 50%;
+					max-width: 50%;
+				}
+				.footer-text {
+					flex: 0 0 100%;
+					max-width: 100%;
+					.text {
+						margin-top: 20px;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 576px) {
+	.home {
+		.home-page {
+			height: auto !important;
+			.home-text {
+				h1 {
+					line-height: 50px;
+					font-size: 7vw;
+				}
+			}
+		}
+	}
+	.header-right {
+		.header-btn {
+			display: none;
+		}
+	}
+	.services {
+		.services-section {
+			.services-area {
+				padding-left: 20px;
+				padding-right: 20px;
+				.services-boxes {
+					.services-item {
+						flex: 0 0 100%;
+						max-width: 100%;
+						a {
+							background: #4cb0ef;
+							border-color: $border-color_1;
+							border-radius: 6px;
+							border: 2px solid #4cb0ef;
+							color: $color_1;
+							text-decoration: none;
+							.service {
+								.icon {
+									color: $color_1;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.contact {
+		.contact-area {
+			.contact-container {
+				.container {
+					max-width: 100%;
+				}
+			}
+		}
+	}
+	.footer {
+		.footer-container {
+			.content-container {
+				.footer-logo {
+					flex: 0 0 100%;
+					max-width: 100%;
+					.logo {
+						text-align: center;
+					}
+				}
+				.footer-icons {
+					flex: 0 0 100%;
+					max-width: 100%;
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 1200px) {
+	.services {
+		.services-section {
+			.services-area {
+				max-width: 1260px;
+			}
+		}
+	}
+	.about {
+		.about-container {
+			.about-area {
+				.container {
+					max-width: 1260px;
+				}
+			}
+		}
+	}
+	.contact {
+		.contact-area {
+			.contact-container {
+				.container {
+					max-width: 1260px;
+				}
+			}
+		}
+	}
+}
